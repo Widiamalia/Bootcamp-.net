@@ -45,6 +45,24 @@ day01.Iterator.ShowContinueStmt();*/
 //day02.Arrays.FillRandomArray();
 
 
+
+
+//Day01-MATERI//
+
+//MathCase.ATM();
+//MathCase.SumDigit();
+//MathCase.ReverseDigit();
+//MathCase.FizzBuzz(15);
+//Console.WriteLine(MathCase.isPrime(15));
+//Console.WriteLine(MathCase.isPrime(13));
+
+//StringCase.StringsCase();
+//StringCase.ReverseString("ABC");
+//DateTimeCase.DateTimeCases
+
+
+
+
 //No.1//
 //QuizLogic.Quiz01.SummaryAngka1();  
 //QuizLogic.SummaryAngka.SummaryAngka2();
@@ -75,7 +93,7 @@ day01.Iterator.ShowContinueStmt();*/
 
 //No.10-12//
 //QuizLogic.Quiz10.Vowel();
-QuizLogic.Quiz11.JumlahKata();
+//QuizLogic.Quiz11.JumlahKata();
 //QuizLogic.Quiz12.Vowel();
 
 
