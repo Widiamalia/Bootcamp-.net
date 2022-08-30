@@ -1,0 +1,15 @@
+C:\Users\E5470\Documents\Visual Studio 2022\Exercise\QuizOOP\bin\Debug\net6.0\QuizDay4OOP.exe
+C:\Users\E5470\Documents\Visual Studio 2022\Exercise\QuizOOP\bin\Debug\net6.0\QuizDay4OOP.deps.json
+C:\Users\E5470\Documents\Visual Studio 2022\Exercise\QuizOOP\bin\Debug\net6.0\QuizDay4OOP.runtimeconfig.json
+C:\Users\E5470\Documents\Visual Studio 2022\Exercise\QuizOOP\bin\Debug\net6.0\QuizDay4OOP.dll
+C:\Users\E5470\Documents\Visual Studio 2022\Exercise\QuizOOP\bin\Debug\net6.0\QuizDay4OOP.pdb
+C:\Users\E5470\Documents\Visual Studio 2022\Exercise\QuizOOP\obj\Debug\net6.0\QuizDay4OOP.csproj.AssemblyReference.cache
+C:\Users\E5470\Documents\Visual Studio 2022\Exercise\QuizOOP\obj\Debug\net6.0\QuizDay4OOP.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\E5470\Documents\Visual Studio 2022\Exercise\QuizOOP\obj\Debug\net6.0\QuizDay4OOP.AssemblyInfoInputs.cache
+C:\Users\E5470\Documents\Visual Studio 2022\Exercise\QuizOOP\obj\Debug\net6.0\QuizDay4OOP.AssemblyInfo.cs
+C:\Users\E5470\Documents\Visual Studio 2022\Exercise\QuizOOP\obj\Debug\net6.0\QuizDay4OOP.csproj.CoreCompileInputs.cache
+C:\Users\E5470\Documents\Visual Studio 2022\Exercise\QuizOOP\obj\Debug\net6.0\QuizDay4OOP.dll
+C:\Users\E5470\Documents\Visual Studio 2022\Exercise\QuizOOP\obj\Debug\net6.0\refint\QuizDay4OOP.dll
+C:\Users\E5470\Documents\Visual Studio 2022\Exercise\QuizOOP\obj\Debug\net6.0\QuizDay4OOP.pdb
+C:\Users\E5470\Documents\Visual Studio 2022\Exercise\QuizOOP\obj\Debug\net6.0\QuizDay4OOP.genruntimeconfig.cache
+C:\Users\E5470\Documents\Visual Studio 2022\Exercise\QuizOOP\obj\Debug\net6.0\ref\QuizDay4OOP.dll

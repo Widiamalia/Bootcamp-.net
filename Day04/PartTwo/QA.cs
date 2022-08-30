@@ -9,29 +9,24 @@ namespace Day04.PartTwo
 {
     internal class QA : Employee
     {
-        private decimal Makan = 0M;
-        private int v;
+        private decimal makan = 0M;
+       
 
-        public QA(int empId, string firstName, string lastName, DateTime joinDate, decimal basicSalary, int v) 
-            : base(empId, firstName, lastName, joinDate, basicSalary)
-        {
-            this.v = v;
-        }
 
-        public QA(int empId, string firstName, string lastName, DateTime joinDate, decimal basicSalary, decimal makan) 
-            : base(empId, firstName, lastName, joinDate, basicSalary)
+        public QA(int empId, string firstName, string lastName, DateTime joinDate, decimal basicSalary, string city, decimal makan) 
+            : base(empId, firstName, lastName, joinDate, basicSalary, city)
         {
-            this.Makan = makan;
+            this.makan = makan;
             this.Role = "QA";
             //call method TotalSalary belong Employee
-            TotalSalary = TotalSalary + makan;
+            TotalSalary = basicSalary + makan;
         }
 
-        public decimal Makan1 { get => Makan; set => Makan = value; }
+        public decimal Makan { get => makan; set => makan = value; }
 
         public override string? ToString()
         {
-            return $"{base.ToString()}; | Tunjangan Person = {this.Makan.ToString("C", new CultureInfo("id-ID"))} | Total salary = {TotalSalary.ToString("C", new CultureInfo("id-ID"))}";
+            return $"{base.ToString()}; | Tunjangan Person = {this.Makan.ToString("C", new CultureInfo("id-ID"))}";
         }
     }
 }

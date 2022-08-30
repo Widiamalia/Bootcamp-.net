@@ -117,11 +117,11 @@ Day02.QuizDay2_Array.DisplayArray(total);
 
 
 //No.8
-Console.WriteLine("\n==========No8==========\n");
+/*Console.WriteLine("\n==========No8==========\n");
 int arr = 100;
 var num = Day02.QuizDay2_Array.No8(arr);
 WriteLine();
-Day02.QuizDay2_Array.DisplayArray(num);
+Day02.QuizDay2_Array.DisplayArray(num);*/
 
 
 //-----------------MATRIX-------------//

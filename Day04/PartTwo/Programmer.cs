@@ -10,7 +10,9 @@ namespace Day04.PartTwo
     internal class Programmer : Employee
     {
         private decimal transportasi;
+       
 
+   
         public Programmer(int empId, string firstName, string lastName,
             DateTime joinDate, decimal basicSalary, string city, decimal transportasi) :
             base(empId, firstName, lastName, joinDate, basicSalary, city)

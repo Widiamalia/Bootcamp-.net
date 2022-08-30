@@ -40,6 +40,7 @@ namespace Day04.PartTwo
             this.firstName = firstName;
             this.lastName = lastName;
             this.joinDate = joinDate;
+            this.basicSalary=basicSalary;
             this.TotalSalary = this.basicSalary;
             totalbasicSalary += this.basicSalary;
         }
@@ -51,6 +52,7 @@ namespace Day04.PartTwo
             this.firstName = firstName;
             this.lastName = lastName;
             this.joinDate = joinDate;
+            this.basicSalary = basicSalary;
             this.TotalSalary = this.basicSalary;
             this.city = city;
             totalbasicSalary += this.basicSalary;
@@ -64,17 +66,17 @@ namespace Day04.PartTwo
             this.lastName = lastName;
             this.joinDate = joinDate;
             this.basicSalary = basicSalary;
+            this.TotalSalary = basicSalary;
             this.city = city;
             this.role = role;
             totalEmployee++;
             totalbasicSalary += this.basicSalary;
-            this.TotalSalary = this.basicSalary;
 
         }
 
         public override string? ToString()
         {
-            return $"Employee={this.empId} | {this.firstName} | {this.lastName} | {this.role} | {this.totalSalary.ToString("C", new CultureInfo("id-ID"))}";
+            return $"Employee={this.empId} | {this.firstName} | {this.lastName} | {this.role} | {TotalSalary.ToString("C", new CultureInfo("id-ID"))}";
         }
 
         private decimal GetTotalSalary()
