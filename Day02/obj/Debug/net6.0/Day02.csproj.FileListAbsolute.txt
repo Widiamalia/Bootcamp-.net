@@ -1,0 +1,15 @@
+C:\Users\E5470\Documents\Visual Studio 2022\Exercise\Day02\bin\Debug\net6.0\Day02.exe
+C:\Users\E5470\Documents\Visual Studio 2022\Exercise\Day02\bin\Debug\net6.0\Day02.deps.json
+C:\Users\E5470\Documents\Visual Studio 2022\Exercise\Day02\bin\Debug\net6.0\Day02.runtimeconfig.json
+C:\Users\E5470\Documents\Visual Studio 2022\Exercise\Day02\bin\Debug\net6.0\Day02.dll
+C:\Users\E5470\Documents\Visual Studio 2022\Exercise\Day02\bin\Debug\net6.0\Day02.pdb
+C:\Users\E5470\Documents\Visual Studio 2022\Exercise\Day02\obj\Debug\net6.0\Day02.csproj.AssemblyReference.cache
+C:\Users\E5470\Documents\Visual Studio 2022\Exercise\Day02\obj\Debug\net6.0\Day02.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\E5470\Documents\Visual Studio 2022\Exercise\Day02\obj\Debug\net6.0\Day02.AssemblyInfoInputs.cache
+C:\Users\E5470\Documents\Visual Studio 2022\Exercise\Day02\obj\Debug\net6.0\Day02.AssemblyInfo.cs
+C:\Users\E5470\Documents\Visual Studio 2022\Exercise\Day02\obj\Debug\net6.0\Day02.csproj.CoreCompileInputs.cache
+C:\Users\E5470\Documents\Visual Studio 2022\Exercise\Day02\obj\Debug\net6.0\Day02.dll
+C:\Users\E5470\Documents\Visual Studio 2022\Exercise\Day02\obj\Debug\net6.0\refint\Day02.dll
+C:\Users\E5470\Documents\Visual Studio 2022\Exercise\Day02\obj\Debug\net6.0\Day02.pdb
+C:\Users\E5470\Documents\Visual Studio 2022\Exercise\Day02\obj\Debug\net6.0\Day02.genruntimeconfig.cache
+C:\Users\E5470\Documents\Visual Studio 2022\Exercise\Day02\obj\Debug\net6.0\ref\Day02.dll
