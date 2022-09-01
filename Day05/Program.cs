@@ -1,7 +1,7 @@
 ﻿using static System.Console;
 using Day05;
 
-Person yuli = new Customer("Yuli","Ayu    ","yuli@gmail.com", new DateTime (1998,4,24), "131-001");
+/*Person yuli = new Customer("Yuli","Ayu    ","yuli@gmail.com", new DateTime (1998,4,24), "131-001");
 Customer widi = new Customer("Widi", "Amalia ", "widi@gmail.com", new DateTime(1999, 9, 30), "131-003");
 Customer rini = new Customer("Rini", "Marlina", "rini@gmail.com", new DateTime(1999, 8, 4), "131-002");
 
@@ -79,8 +79,46 @@ var query = listOfCustomer.Select(cust =>
 foreach (var item in query)
 {
     WriteLine(item);
-}
+}*/
 
+
+WriteLine("======================================OWNER========================================");
+
+Person fauzan = new Owner("Fauzan", "Lazwar", "ekos@gmail.com", new DateTime(1998, 4, 24), 50);
+Owner widi = new Owner("Widi", "Amalia ", "widi@gmail.com", new DateTime(1999, 9, 30), 60);
+Owner jilan  = new Owner("Jilan", "Agni  ", "agni@gmail.com", new DateTime(2007, 9, 27), 70);
+
+var listOfOwner = new List<Person> { fauzan, widi, jilan };
+
+var incomeFauzan = new Dictionary<string, decimal>{
+    {"Galery",80_000_000},
+    {"Department Store",900_000_000}
+
+};
+
+fauzan.TotalRevenue = fauzan.TotalIncome(incomeFauzan);
+
+
+var incomeWidi = new Dictionary<string, decimal>{
+    {"Apartment",700_000_000},
+    {"Online Shop",88_000_000}
+
+};
+
+widi.TotalRevenue = widi.TotalIncome(incomeWidi);
+
+var incomeJilan = new Dictionary<string, decimal>{
+    {"Supermarket",200_000_000},
+    {"Wibu Shop",40_000_000}
+
+};
+
+jilan.TotalRevenue = jilan.TotalIncome(incomeJilan);
+
+foreach (var item in listOfOwner)
+{
+    WriteLine(item.ToString());
+}
 
 /*WriteLine("=======================================LinQ====================================");
 LinQ.IntroLinq();*/

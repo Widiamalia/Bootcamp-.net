@@ -109,9 +109,49 @@
         }
 
         //No.6//
+        public static int[] No6(int[] arr)
+        {
+            Array.Sort(arr);
+            for (int i = 0; i < arr.Length; i++)
+            {
+                int x = arr[i];
+                if (i < arr.Length - 1 && x == arr[i + 1])
+                {
+                    for (int j = i; j < arr.Length; j++)
+                    {
+                        if (j == arr.Length - 1)
+                        {
+                            arr[j] = -1;
+                        }
+                        else
+                        {
+                            arr[j] = arr[j + 1];
+                        }
+                    }
+                }
+            }
+            return arr;
+        }
+
 
 
         //No.7//
+        public static int[] No7(int[] arr)
+        {
+            int[] widi = arr;
+            Array.Sort(widi);
+            var widii = widi.Distinct().ToArray();
+            /*        for (int i = 0; i < arr.Length; i++)
+                    {
+                        int x = arr[i];
+                        if (i < arr.Length - 1 && x == arr[i + 1])
+                        {
+                            continue;
+                        }
+                    }
+                    return arr;*/
+            return widii;
+        }
 
 
         //No.8//
@@ -123,12 +163,14 @@
             int hitung = 0;
             for (int i = 0; i < num.Length; i++)
             {
-                DisplayArray(num);
-                Console.WriteLine("\n==========RESULT=============\n");
-                Console.WriteLine();
-                Array.Sort(num);
+
                 num[i] = huruf[r.Next(0, 26)];
             }
+            DisplayArrayChar(num);
+            Console.WriteLine("\n==========RESULT=============\n");
+            Console.WriteLine();
+            Array.Sort(num);
+
             for (int i = 0; i < num.Length; i++)
             {
                 hitung = 0;
@@ -162,5 +204,13 @@
             }
         }
 
+        public static void DisplayArrayChar(char[] arr)
+        {
+            foreach (var item in arr)
+            {
+                Console.Write($"{item} ");
+
+            }
+        }
     }
 }

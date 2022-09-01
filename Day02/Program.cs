@@ -60,12 +60,12 @@ Array.DisplayArrayInt(ShiftArray);
 
 /*Matrix.InitMatrix();
 var myMatrix = Matrix.FillRandomMatrix(5, 5);
-*//*Matrix.DisplayMatrix(myMatrix);*//*
+Matrix.DisplayMatrix(myMatrix);
 
 WriteLine();
 var matrixDiagonal = Matrix.MatrixDiagonal(5, 5);
-Matrix.DisplayMatrix(matrixDiagonal);*/
-
+Matrix.DisplayMatrix(matrixDiagonal);
+*/
 
 
 //----------------Array----------------//
@@ -101,36 +101,51 @@ Console.WriteLine("\nBefore Rotating");
 Day02.QuizDay2_Array.DisplayArray(kanan);*/
 
 //No.5
-Console.WriteLine("\n==============Result============\n");
-int[] no5 = { 5, 2, 30, 12, 101, 5, 2, 10, 5 };
-var total = Day02.QuizDay2_Array.No4(no5);
+/*Console.WriteLine("\n==============Result============\n");
+int[] no5 = { 5, 2, 30, 12, 10, 5, 2, 10, 5 };
+Day02.QuizDay2_Array.DisplayArray(no5);
 WriteLine();
-Day02.QuizDay2_Array.DisplayArray(total);
+var total = Day02.QuizDay2_Array.No5(no5);*/
 
 
-//No.6
+/*//No.6
+int[] no6 = { 1, 5, 3, 7, 8, 5, 1 };
+Console.WriteLine("Before Marker");
+var myArray = Day02.QuizDay2_Array.InitArrayInt(no6);
+Day02.QuizDay2_Array.DisplayArray(myArray);
+var w1 = Day02.QuizDay2_Array.No6(no6);
+WriteLine();
+Console.WriteLine("After Marker");
+Day02.QuizDay2_Array.DisplayArray(w1);
 
-
-
+*/
+/*
 //No.7
-
+Console.WriteLine("\n==========No7==========\n");
+Console.WriteLine("Before Marker");
+int[] w2 = { 1, 2, 3, 2, 7, 7, 1, 6, 3, 4, 5, 2, 3, 6, 8, 9 };
+var widi = Day02.QuizDay2_Array.InitArrayInt(w2);
+Day02.QuizDay2_Array.DisplayArray(widi);
+WriteLine();
+Console.WriteLine("After Remove");
+var widii = Day02.QuizDay2_Array.No7(widi);
+Day02.QuizDay2_Array.DisplayArray(widii);
 
 
 //No.8
-/*Console.WriteLine("\n==========No8==========\n");
 int arr = 100;
 var num = Day02.QuizDay2_Array.No8(arr);
 WriteLine();
-Day02.QuizDay2_Array.DisplayArray(num);*/
-
+Day02.QuizDay2_Array.DisplayArrayChar(num);
+*/
 
 //-----------------MATRIX-------------//
 
 //No.9
 /*WriteLine();
 var matrixDiagonal = Matrix.MatrixDiagonal1(5, 5);
-Matrix.DisplayMatrix(matrixDiagonal);
-*/
+Matrix.DisplayMatrix(matrixDiagonal);*/
+
 
 /*//No.10
 WriteLine();
@@ -149,8 +164,8 @@ Matrix.DisplayMatrix(satu);
 Console.WriteLine();
 QuizDay2_Matrix.IniNomorDuaBelas(satu);
 
-Matrix.DisplayMatrix(QuizDay2_Matrix.IniNomorDuaBelas(satu));
-*/
+Matrix.DisplayMatrix(QuizDay2_Matrix.IniNomorDuaBelas(satu));*/
+
 
 //No.15
 /*
@@ -166,6 +181,6 @@ char[,] student = new char[,]{
 };
 char[] guru = new char[] { 'D', 'B', 'D', 'C', 'C', 'D', 'A', 'E', 'A', 'D' };
 Console.WriteLine(student);
-var siswa = Day02.Matrix.Students(student, guru);*/
-
+var siswa = Day02.Matrix.Students(student, guru);
+*/
 ReadLine();

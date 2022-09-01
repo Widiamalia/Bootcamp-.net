@@ -92,7 +92,6 @@ namespace Day02
             return matrix;
         }
 
-
         //NO.12
         public static int[,] IniNomorDuaBelas(int[,] matrix)
         {
