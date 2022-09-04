@@ -41,23 +41,23 @@
     }
 
     //NO4//
-    /*    static void Main(string[] args)
+    static void Main(string[] args)
+    {
+
+        int input, first = 0, second = 1, third = 0;
+        Console.Write("Enter a number : ");
+        n = Convert.ToInt32(Console.ReadLine());
+        Console.Write("First {0} Fibonacci numbers {1} {2} ", input, first, second);
+
+        for (int i = 3; i <= input; i++)
         {
+            third = first + second;
+            Console.Write("{0} ", third);
+            first = second;
+            second = third;
+        }
 
-            int input, first = 0, second = 1, third = 0;
-            Console.Write("Enter a number : ");
-            n = Convert.ToInt32(Console.ReadLine());
-            Console.Write("First {0} Fibonacci numbers {1} {2} ", input, first, second);
-
-            for (int i = 3; i <= input; i++)
-            {
-                third = first + second;
-                Console.Write("{0} ", third);
-                first = second;
-                second = third;
-            }
-
-        }*/
+    }
 
 
 }
